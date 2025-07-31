@@ -31,8 +31,8 @@ public class Library {
         System.out.println("totalCapacity " + this.totalCapacity);
         address.displayInfo();
 
-        for (Book book : this.books) {
-            book.displayInfo();
+        for (Book b : this.books) {
+            b.displayInfo();
         }
     }
 

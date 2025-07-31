@@ -13,6 +13,8 @@ public class Book {
         this.name = name;
         this.author = author;
         this.pageCount = pageCount;
+        this.count = count;
+        this.price = price;
     }
 
     public void displayInfo() {
@@ -26,8 +28,10 @@ public class Book {
 
     public boolean isExpensive() {
         if (price > 100) {
+            System.out.println("isExpensive");
             return true;
         } else {
+            System.out.println("isCheap");
             return false;
         }
     }
@@ -40,7 +44,7 @@ public class Book {
         }
     }
 
-    int calculatePrice(int amount) {
+    int calculatePrice(int amount ) {
         return price * amount;
     }
 

@@ -1,6 +1,6 @@
 package practise1;
 
-public class Address {
+public class Address  extends Object {
     String street;
     String city;
     String country;
