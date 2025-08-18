@@ -9,7 +9,6 @@ public class Main {
         company.addEmployee(commissionEmployee);
         company.addEmployee(hourlyEmployee);
         company.addEmployee(salariedEmployee);
-
         System.out.println(company.highestPaidEmployee());
         System.out.println(company.totalPayroll()
         );
