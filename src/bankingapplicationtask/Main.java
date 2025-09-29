@@ -19,7 +19,7 @@ public class Main {
             System.out.println("5. Fayla yaz / fayldan oxu");
             System.out.println("6. Çıxış");
             System.out.print("Seçim: ");
-            int choice = sc.nextInt();
+            int choice = sc.nextInt();//2.3
 
             switch (choice) {
                 case 1:
