@@ -6,7 +6,7 @@ public class Person {
     // bir eded void method yaradin
     // bir eded return type olan method yaradin
     // 1 eded static kod bloku yaradin
-    // Person classindan 1 eded object yaradin
+    // xxxxx.Person classindan 1 eded object yaradin
     // deyisenlere deyer menimsedin
     //methodlari cagirin
 
@@ -24,7 +24,7 @@ public class Person {
         System.out.println("object blok");
     }
 
-    /*public Person() {
+    /*public xxxxx.Person() {
 
     }*/
 
